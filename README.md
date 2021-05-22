@@ -2,7 +2,7 @@
 This is a React app that allows users to search for books and save their favourites. This app uses the Google Books api to retrieve book information such as author, title, description etc. Furthermore, this app incorporates Node, Express and MongoDB so that users can save books to review or purchase later.
 
 ## Deployed App
-Please click [here]() to view the deployed app
+Please click [here](https://uob-google-books.herokuapp.com/) to view the deployed app
 
 ## Screenshots of Page
 *Home/Search Page*
