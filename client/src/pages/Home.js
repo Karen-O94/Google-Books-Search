@@ -7,6 +7,7 @@ import Footer from "../components/Footer";
 import API from "../utils/API";
 import { Col, Row, Container } from "../components/Grid";
 import { List } from "../components/List";
+import Wrapper from "../components/Wrapper"
 
 class Home extends Component {
   state = {
@@ -58,6 +59,7 @@ class Home extends Component {
 
   render() {
     return (
+      <Wrapper>
       <Container>
         <Row>
           <Col size="md-12">
@@ -111,6 +113,7 @@ class Home extends Component {
         </Row>
         <Footer />
       </Container>
+      </Wrapper>
     );
   }
 }
