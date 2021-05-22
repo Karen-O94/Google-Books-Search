@@ -17,10 +17,12 @@ app.use(routes);
 
 
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost:27017/google_book_search",
+  process.env.MONGODB_URI || "mongodb://localhost/google_book_search",
   {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
     useCreateIndex: true,
-    useNewUrlParser: true
+    useFindAndModify: false
   }
 );
 
